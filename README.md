@@ -22,5 +22,9 @@ use let, const
 const cannot be re-assigned
 if only variable is declared, its value is undefined
 
+Documenation: https://ecma-international.org/technical-committees/tc39/
+and
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
 ## To Do:
 1. Github settingss
