@@ -43,6 +43,6 @@ Now if you proceed to push the code, an authentication step will be required on 
 
 ### Pending Items:
 - [x] Updated README
-- [ ] Github settings
+- [ ] Github settings (Auto delete enabled, fixed repo name, )
 
 ![Youtube Channel](https://img.shields.io/badge/any_text-you_like-blue)
