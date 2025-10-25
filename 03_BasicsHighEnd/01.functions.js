@@ -47,3 +47,40 @@ console.log(loginUserMessageNegative()); /* Output - Please enter a username */
 
 // When you define a default value in parameters, it takes the one you pass, if you dont pass the default 
 // is taken
+
+/***************************** Functions - Part II *****************************/
+// when the number of parameters are not known
+function calculateCartPrice(...num1) { // this is a rest operator
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 2000)); /* Output - [ 200, 400, 500, 2000 ] */
+
+function calculateCartPrice(val1, val2, ...num1) { // firt two values are mandatory, remaining of the values foes in num1
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 2000)); /* Output - [ 500, 2000 ] */
+
+const user = {
+    username: "testUser",
+    price: 199
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.username} and 
+        the price is ${anyObject.price}`);    
+}
+
+handleObject(user) /* Output - Username is testUser and
+        the price is 199 */
+
+// another way of defining the object
+handleDirectObject({
+    username: "JS Course",
+    price: "FREE"
+}) /* Output - Username is JS Course and
+        the price is FREE */
+
+function handleDirectObject(anyObject) {
+    console.log(`Username is ${anyObject.username} and 
+        the price is ${anyObject.price}`);    
+}
