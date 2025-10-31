@@ -1,25 +1,25 @@
-// for (let index = 0; index < 10; index++) {
-//     const element = index;
-//     console.log(element);
-// }
-// /* Output: 0
-// 1
-// 2
-// 3
-// 4
-// 5
-// 6
-// 7
-// 8
-// 9 */
+for (let index = 0; index < 10; index++) {
+    const element = index;
+    console.log(element);
+}
+/* Output: 0
+1
+2
+3
+4
+5
+6
+7
+8
+9 */
 
-// // nested loop
-// for (let index = 0; index < 10; index++) {
-//     console.log(`Outer Loop iterator variable: ${index}`);
-//     for (inner_variable = 0; inner_variable < 10; inner_variable++){
-//         console.log(`Outer Loop iterator variable: ${index} and inner loop variable: ${inner_variable}`);
-//     }      
-// }
+// nested loop
+for (let index = 0; index < 10; index++) {
+    console.log(`Outer Loop iterator variable: ${index}`);
+    for (inner_variable = 0; inner_variable < 10; inner_variable++){
+        console.log(`Outer Loop iterator variable: ${index} and inner loop variable: ${inner_variable}`);
+    }      
+}
 // /* Output: Outer Loop iterator variable: 9
 // Outer Loop iterator variable: 9 and inner loop variable: 0
 // Outer Loop iterator variable: 9 and inner loop variable: 1
